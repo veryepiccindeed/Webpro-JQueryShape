@@ -21,7 +21,7 @@ Pastikan Anda memiliki hal-hal berikut sebelum memulai:
 Clone repositori ini atau unduh sebagai ZIP dan ekstrak di komputer Anda.
 
    ```bash
-   git clone https://github.com/username/shape-container-project.git
+   git clone https://github.com/veryepiccindeed/Webpro-JQueryShape.git
    ```
 ## Cara Menggunakan
 1. Buka file index.html di web browser Anda.
