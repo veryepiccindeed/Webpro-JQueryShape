@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Shape</title>
+    <!-- Tautan ke file CSS eksternal untuk styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Pembungkus untuk kontainer bentuk untuk menambahkan padding dan border -->
+    <div class="shapeContainerWrapper">
+        <!-- Kontainer di mana bentuk akan ditambahkan -->
+        <div class="shapeContainer"></div>
+    </div>
+    <!-- Tombol untuk menambahkan dan menghapus bentuk -->
+    <div class="controls">
+        <button id="addShapeBtn">Tambah Bentuk</button>
+        <button id="removeShapeBtn">Hapus Bentuk</button>
+    </div>
+    <!-- Kontrol untuk memilih tipe bentuk dan warna -->
+    <div class="shapeControls">
+        <label for="shapeType">Bentuk:</label>
+        <select id="shapeType">
+            <option value="square">Persegi</option>
+            <option value="circle">Lingkaran</option>
+        </select>
+        <label for="shapeColor">Warna:</label>
+        <input type="color" id="shapeColor" value="#ff0000">
+    </div>
+    <!-- Tautan ke jQuery dan file JavaScript eksternal -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

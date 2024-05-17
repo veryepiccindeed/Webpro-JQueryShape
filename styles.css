@@ -1,0 +1,90 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;  /* Warna latar belakang yang lebih lembut */
+}
+
+/* Pembungkus kontainer bentuk */
+.shapeContainerWrapper {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    background-color: #fff;  /* Latar belakang putih untuk kontras */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Bayangan lembut */
+    border-radius: 10px;  /* Sudut membulat */
+    overflow: hidden;
+}
+
+/* Kontainer bentuk dengan flexbox dan wrap */
+.shapeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  /* Memusatkan bentuk dalam kontainer */
+}
+
+/* Styling untuk kontrol */
+.controls, .shapeControls {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;  /* Jarak antar elemen */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;  /* Warna tombol utama */
+    color: white;
+    transition: background-color 0.3s ease;  /* Transisi halus */
+}
+
+button:hover {
+    background-color: #0056b3;  /* Warna saat tombol di-hover */
+}
+
+/* Styling untuk input warna dan select */
+input[type="color"], select {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Dasar untuk bentuk */
+.shape {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);  /* Bayangan lembut */
+    transition: transform 0.3s ease;  /* Transisi halus */
+}
+
+.shape:hover {
+    transform: scale(1.1);  /* Membesar saat di-hover */
+}
+
+/* Bentuk persegi dengan warna dasar */
+.square {
+    background-color: red;
+}
+
+/* Bentuk lingkaran dengan warna dasar */
+.circle {
+    background-color: blue;
+    border-radius: 50%;
+}
